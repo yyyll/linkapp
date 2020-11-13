@@ -1,0 +1,3 @@
+DEPENDENCIES=rhino bt_common cjson netmgr newlib_stub breeze device_mal_sim800 cli
+USER_ADD_DEPS=
+MD5SUM_HEADER=66785944064d8d8359a40b28627fa377

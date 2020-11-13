@@ -1,0 +1,19 @@
+D:/proj/linkapp/out/linkapp@esp32devkitc/modules//platform/arch/xtensa/lx6/xtensa_init.o: \
+ D:/smarthome/AliOS-Things/platform/arch/xtensa/lx6/xtensa_init.c \
+ D:\proj\linkapp/aos_config.h \
+ D:/smarthome/AliOS-Things/platform/arch/xtensa/lx6/include/frxt/xtensa_rtos.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/config/core.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/hal.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/xtensa-versions.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/config/core-isa.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/config/core-matmap.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/config/tie.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/corebits.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/config/system.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/simcall.h \
+ d:\proj\linkapp\board\esp32devkitc\sdkconfig.h \
+ d:\proj\linkapp\board\esp32devkitc\k_config.h \
+ D:/smarthome/AliOS-Things/platform/arch/xtensa/lx6/include/frxt/xtensa_context.h \
+ D:/smarthome/AliOS-Things/platform/mcu/esp32/bsp/include/esp32/include/xtensa/xtruntime-frames.h \
+ D:/smarthome/AliOS-Things/platform/arch/xtensa/lx6/include/frxt/xtensa_timer.h \
+ D:/smarthome/AliOS-Things/platform/arch/xtensa/lx6/include/frxt/xtensa_rtos.h

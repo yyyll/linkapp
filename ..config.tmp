@@ -1,0 +1,61 @@
+deps_config := \
+	D:/smarthome/AliOS-Things/components/dm/uagent/Config.in \
+	D:/smarthome/AliOS-Things/components/fs/spiffs/Config.in \
+	D:/smarthome/AliOS-Things/components/dm/ota/Config.in \
+	D:/smarthome/AliOS-Things/components/security/linksecurity/ls_osa/Config.in \
+	D:/smarthome/AliOS-Things/components/security/linksecurity/ls_hal/Config.in \
+	D:/smarthome/AliOS-Things/components/security/linksecurity/irot/tee/Config.in \
+	D:/smarthome/AliOS-Things/components/security/linksecurity/irot/se/Config.in \
+	D:/smarthome/AliOS-Things/components/security/linksecurity/irot/km/Config.in \
+	D:/smarthome/AliOS-Things/components/linkkit/dynamic_register/Config.in \
+	D:/smarthome/AliOS-Things/components/linkkit/certs/Config.in \
+	D:/smarthome/AliOS-Things/components/security/linksecurity/itls/Config.in \
+	D:/smarthome/AliOS-Things/components/security/linksecurity/irot/Config.in \
+	D:/smarthome/AliOS-Things/components/security/linksecurity/id2/Config.in \
+	D:/smarthome/AliOS-Things/components/network/http/Config.in \
+	D:/smarthome/AliOS-Things/components/fs/fatfs/Config.in \
+	D:/smarthome/AliOS-Things/components/wireless/bluetooth/ble/host/Config.in \
+	D:/smarthome/AliOS-Things/components/wireless/bluetooth/ble/host/bt_common/Config.in \
+	D:/smarthome/AliOS-Things/components/wireless/bluetooth/ble/breeze/ref-impl/Config.in \
+	D:/smarthome/AliOS-Things/components/wireless/bluetooth/ble/breeze/Config.in \
+	D:/smarthome/AliOS-Things/components/security/linksecurity/alicrypto/Config.in \
+	D:/smarthome/AliOS-Things/components/utility/yloop/Config.in \
+	D:/smarthome/AliOS-Things/components/utility/cjson/Config.in \
+	D:/smarthome/AliOS-Things/components/security/mbedtls/Config.in \
+	D:/smarthome/AliOS-Things/components/network/netmgr/activation/chip_code/Config.in \
+	D:/smarthome/AliOS-Things/components/network/netmgr/activation/Config.in \
+	D:/smarthome/AliOS-Things/components/network/netmgr/Config.in \
+	D:/smarthome/AliOS-Things/components/network/lwip/Config.in \
+	D:/smarthome/AliOS-Things/components/network/Config.in \
+	D:/smarthome/AliOS-Things/components/linkkit/wrappers/Config.in \
+	D:/smarthome/AliOS-Things/components/linkkit/wifi_provision/Config.in \
+	D:/smarthome/AliOS-Things/components/linkkit/mqtt/Config.in \
+	D:/smarthome/AliOS-Things/components/linkkit/iot_coap/Config.in \
+	D:/smarthome/AliOS-Things/components/linkkit/infra/Config.in \
+	D:/smarthome/AliOS-Things/components/linkkit/dev_sign/Config.in \
+	D:/smarthome/AliOS-Things/components/linkkit/dev_model/Config.in \
+	D:/smarthome/AliOS-Things/components/dm/und/Config.in \
+	D:/smarthome/AliOS-Things/components/dm/ulog/Config.in \
+	D:/smarthome/AliOS-Things/core/vfs/Config.in \
+	D:/smarthome/AliOS-Things/core/rhino/Config.in \
+	D:/smarthome/AliOS-Things/core/rbtree/Config.in \
+	D:/smarthome/AliOS-Things/core/osal/aos/Config.in \
+	D:/smarthome/AliOS-Things/core/kv/Config.in \
+	D:/smarthome/AliOS-Things/core/init/Config.in \
+	D:/smarthome/AliOS-Things/core/cli/Config.in \
+	D:/smarthome/AliOS-Things/platform/mcu/esp32/Config.in \
+	D:\proj\linkapp/board/esp32devkitc/Config.in \
+	D:/smarthome/AliOS-Things/platform/arch/xtensa/lx6/Config.in \
+	D:\proj\linkapp/Config.in
+
+D:/proj/linkapp/out/config/auto.conf: \
+	$(deps_config)
+
+ifneq "$(APPDIR)" "D:\proj\linkapp"
+D:/proj/linkapp/out/config/auto.conf: FORCE
+endif
+ifneq "$(AOS_SDK_PATH)" "D:/smarthome/AliOS-Things"
+D:/proj/linkapp/out/config/auto.conf: FORCE
+endif
+
+$(deps_config): ;
